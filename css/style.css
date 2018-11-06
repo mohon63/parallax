@@ -1,0 +1,108 @@
+.img-area {
+  margin: auto; }
+
+  .content article {
+  padding: 100px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center; }
+
+img {
+    max-width: 100%; }
+  .bird-box{
+    position: relative;
+    height: 700px;
+    background-image: url(../images/bird-bg.jpg);
+    background-size: auto 700px;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+  .logo{
+    height: 100px;
+    width: 100%;
+    background-image: url(../images/black-bird-logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+  
+  }
+  .fore-bird {
+      width: 960px;
+      height: 733px;
+      background-image: url(../images/fore-bird.png);
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      position: absolute;
+      left: 50%;
+      margin-left: -480px;
+      top: 380px;
+  }
+  .back-bird {
+      width: 960px;
+      height: 298px;
+      background-image: url(../images/back-bird.png);
+      background-repeat: no-repeat;
+      background-position: top left;
+      position: absolute;
+      left: 50%;
+      margin-left: -480px;
+  }
+  /* menu area */
+
+  .navbar-brand a{
+    font-size: 30px;
+    color: #444444;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase
+  }
+  .menu-area ul{}
+  .menu-area ul li a{
+    color: #444444;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase
+  }
+  .main-menu-area{
+    transition: .5s;
+  }
+  .main-menu-area.sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: #1d212480;
+    padding: 10px 0;
+}
+
+/* second section img */
+
+.clothes-pics .img-area {
+  margin-bottom: 20px;
+  position: relative;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: all 0.3s ease-in-out; }
+  .clothes-pics .img-area.is-showing {
+    opacity: 1;
+    transform: translateX(0px); }
+
+    /* .large-window  */
+    .clothes-pics .img-area img {
+      display: block;
+      transform: scale(1);
+      transition: all 0.3s ease-in-out; }
+    
+
+      .large-window {
+        height: 640px;
+        background-image: url(/images/model2.jpg);
+        background-position: center 0px;
+        background-repeat: repeat-y;
+        background-attachment: fixed;
+        margin-top: 100px;
+        border-radius: 50%; }
+      
+    
